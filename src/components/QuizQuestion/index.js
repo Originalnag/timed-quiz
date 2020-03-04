@@ -5,7 +5,7 @@ render() {
   return(
       <>
       <h2>{this.props.question} </h2> 
-      {this.props.answer.map((v) => {
+      {this.props.answers.map((v) => {
           return <input type="button" 
           value={v.text} 
           className="answerButton" 

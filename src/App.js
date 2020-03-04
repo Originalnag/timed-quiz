@@ -30,7 +30,7 @@ class TitlePage extends React.Component {
   this.setState({counter: 0})
   this.setState({currentState: QUESTION_STATE})
   this.timer = setInterval(() => {
-    console.log('INTERVAL CALLED'); 
+    console.log('INTERVAL CALLED') 
     this.setState({counter: this.state.counter+1})
     if(this.state.counter < this.timeLimit){
       this.setState({titleText:"Begin the Quiz!" + this.state.counter})
@@ -38,7 +38,7 @@ class TitlePage extends React.Component {
     this.setState({titleText:"Time's up!"})
     clearInterval(this.timer)
     }
-  },1000);
+  }, 1000);
   }
   
 render(props) {

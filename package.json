@@ -2,6 +2,7 @@
   "name": "timed-quiz",
   "version": "0.1.0",
   "private": false,
+  "homepage": "http://Originalnag.github.io/timed-quiz",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
